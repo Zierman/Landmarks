@@ -14,6 +14,7 @@ struct ContentView: View {
                 .font(.title)
                 .padding()
             Text("Joshua Tree National Park")
+                .font(.subheadline)
         }
             
     }
