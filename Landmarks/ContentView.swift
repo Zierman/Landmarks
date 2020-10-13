@@ -14,6 +14,8 @@ struct ContentView: View {
             MapView()
                 .frame(height: 300)
             
+            CircleImage()
+            
             VStack (alignment: .leading) {
                 
                 Text("Turtle Rock")
