@@ -12,6 +12,7 @@ struct ContentView: View {
         Text("Turtle Rock")
             .font(.title)
             .padding()
+            .foregroundColor(.green)
     }
 }
 
