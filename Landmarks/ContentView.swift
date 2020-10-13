@@ -13,8 +13,10 @@ struct ContentView: View {
             Text("Turtle Rock")
                 .font(.title)
                 .padding()
-            Text("Joshua Tree National Park")
-                .font(.subheadline)
+            HStack {
+                Text("Joshua Tree National Park")
+                    .font(.subheadline)
+            }
         }
             
     }
