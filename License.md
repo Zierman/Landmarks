@@ -1,4 +1,4 @@
-This project was built following the following tutorials: 
+This project was built using the following tutorials: 
 - [SwiftUI Essentials -
 Creating and Combining Views](https://developer.apple.com/tutorials/swiftui/creating-and-combining-views)
 
