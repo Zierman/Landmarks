@@ -16,6 +16,8 @@ struct ContentView: View {
             HStack {
                 Text("Joshua Tree National Park")
                     .font(.subheadline)
+                Text("California")
+                    .font(.subheadline)
             }
         }
             
