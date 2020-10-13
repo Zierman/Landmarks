@@ -13,6 +13,7 @@ struct ContentView: View {
             Text("Turtle Rock")
                 .font(.title)
                 .padding()
+            Text(/*@START_MENU_TOKEN@*/"Placeholder"/*@END_MENU_TOKEN@*/)
         }
             
     }
