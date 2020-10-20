@@ -14,28 +14,28 @@ struct LandmarkDetail: View {
     var body: some View {
         VStack {
             
-            MapView()
+            MapView(coordinate: landmark.locationCoordinate)
                 .frame(height: 300)
                 .edgesIgnoringSafeArea(.top)
             
-            CircleImage()
+            CircleImage(image: landmark.image)
                 .offset(y:-130)
                 .padding(.bottom, -130)
             
             VStack (alignment: .leading) {
                 
-                Text("Turtle Rock")
+                Text(landmark.name)
                     .font(.title)
                     .padding()
                 
                 HStack {
                     
-                    Text("Joshua Tree National Park")
+                    Text(landmark.park)
                         .font(.subheadline)
                     
                     Spacer()
                     
-                    Text("California")
+                    Text(landmark.state)
                         .font(.subheadline)
                 }
             }
