@@ -41,10 +41,11 @@ struct LandmarkDetail: View {
             }
             .padding()
             
+            Spacer()
         }
         
-        Spacer()
     }
+    
 }
 
 struct LandmarkDetail_Previews: PreviewProvider {
