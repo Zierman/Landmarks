@@ -13,6 +13,7 @@ struct LandmarkList: View {
             List(landmarkData) { landmark in
                 LandmarkRow(landmark: landmark)
             }
+            .navigationBarTitle(Text("Landmarks"))
         }
     }
 }
