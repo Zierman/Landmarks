@@ -30,10 +30,14 @@ struct LandmarkRow: View {
 
 struct LandmarkRow_Previews: PreviewProvider {
     static var previews: some View {
-        Group {
-            LandmarkRow(landmark: landmarkData[0])
-            LandmarkRow(landmark: landmarkData[1])
+        let range = 0...min(5, landmarkData.count)
+        ForEach(landmarkData[range]) { landmark in
+            LandmarkRow(landmark: landmark)
+                .previewDisplayName("\(landmark.name) Row")
+                .previewLayout(.fixed(width: 300, height: 70))
         }
-        .previewLayout(.fixed(width: 300, height: 70))
+        
+        
+            
     }
 }
