@@ -33,6 +33,7 @@
 		4289D3C82538E56200632A38 /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = 4289D3C72538E56200632A38 /* .gitignore */; };
 		4289D3CF2538F66300632A38 /* LandmarkRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4289D3CE2538F66300632A38 /* LandmarkRow.swift */; };
 		4289D3D22538FF6900632A38 /* LandmarkList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4289D3D12538FF6900632A38 /* LandmarkList.swift */; };
+		42D531922541F2FA006CEAB6 /* charleyrivers.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 42D531912541F2FA006CEAB6 /* charleyrivers.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -64,6 +65,7 @@
 		4289D3C72538E56200632A38 /* .gitignore */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .gitignore; sourceTree = SOURCE_ROOT; };
 		4289D3CE2538F66300632A38 /* LandmarkRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LandmarkRow.swift; sourceTree = "<group>"; };
 		4289D3D12538FF6900632A38 /* LandmarkList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LandmarkList.swift; sourceTree = "<group>"; };
+		42D531912541F2FA006CEAB6 /* charleyrivers.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = charleyrivers.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -135,6 +137,7 @@
 		4289D2DC2536C3EA00632A38 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				42D531912541F2FA006CEAB6 /* charleyrivers.jpg */,
 				4289D2E32536C41900632A38 /* chilkoottrail.jpg */,
 				4289D2E22536C41900632A38 /* chincoteague.jpg */,
 				4289D2E72536C41900632A38 /* hiddenlake.jpg */,
@@ -217,6 +220,7 @@
 				4289D2F22536C41900632A38 /* rainbowlake.jpg in Resources */,
 				428758522536394100FB150C /* README.md in Resources */,
 				4289D2F02536C41900632A38 /* chilkoottrail.jpg in Resources */,
+				42D531922541F2FA006CEAB6 /* charleyrivers.jpg in Resources */,
 				4287584825362D5D00FB150C /* Preview Assets.xcassets in Resources */,
 				4289D2F32536C41900632A38 /* landmarkData.json in Resources */,
 				4289D2ED2536C41900632A38 /* silversalmoncreek.jpg in Resources */,
