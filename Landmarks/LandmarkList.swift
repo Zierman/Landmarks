@@ -9,7 +9,7 @@ import SwiftUI
 
 struct LandmarkList: View {
     
-    @State var showFavoritesOnly = false
+    @EnvironmentObject var userData: UserData
     
     var body: some View {
         NavigationView{
