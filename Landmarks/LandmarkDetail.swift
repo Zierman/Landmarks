@@ -59,6 +59,7 @@ struct LandmarkDetail_Previews: PreviewProvider {
         ForEach(landmarkData[range]) { landmark in
             LandmarkDetail(landmark: landmark)
                 .environmentObject(UserData())
+                .previewDisplayName("\(landmark.name) Detail")
             
         }
     }
