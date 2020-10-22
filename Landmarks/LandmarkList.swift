@@ -14,6 +14,13 @@ struct LandmarkList: View {
     var body: some View {
         NavigationView{
             List {
+                
+                // Toggle for filtering only favorites
+                Toggle(isOn: $showFavoritesOnly){
+                    Text("Favorites Only")
+                }
+                
+                // List the landmarks
                 ForEach(landmarkData) { landmark in
                     if !self.showFavoritesOnly || landmark.isFavorite {
                         NavigationLink(destination: LandmarkDetail(landmark: landmark)) {
