@@ -9,5 +9,6 @@ import SwiftUI
 import Combine
 
 final class UserData: ObservableObject {
-    
+    var showFavoritesOnly = false
+    var landmarks = landmarkData
 }
