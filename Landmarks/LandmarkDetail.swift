@@ -33,6 +33,8 @@ struct LandmarkDetail: View {
                         .font(.title)
                         .padding()
                     
+                    Spacer()
+                    
                     Button(action: {
                         self
                             .userData
@@ -55,6 +57,7 @@ struct LandmarkDetail: View {
                             
                         }
                     }
+                    .padding()
                 }
                 HStack {
                     
